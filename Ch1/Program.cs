@@ -318,7 +318,6 @@ namespace Ch1
     /// Blocking a pooled thread may trigger additional latency in the early life of an application unless you call ThreadPool.SetMinThreads
 
     ///change the priority of a pooled thread—it will be restored to normal when released back to the pool.
-
     #endregion
 
 }
